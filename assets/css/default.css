@@ -895,6 +895,7 @@
 .black {
 	color: #222;
 }
+
 /* black overlay */
 
 [data-overlay] {
@@ -933,4 +934,10 @@
 }
 [data-overlay="9"]::before {
 	opacity: 0.9;
+}
+
+/* own margins  */
+.mlo{
+	margin-left: 90%;
+	margin-right: 10%;
 }
