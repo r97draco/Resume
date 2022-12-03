@@ -14,7 +14,7 @@
     ===================
 
     1.COMMON
-	2.HEADER
+	  2.HEADER
     3.ABOUT
     4.SERVICES
     4.CALL TO ACTION
@@ -773,12 +773,13 @@ p {
       .header-social .header-social-icon ul li:first-child {
         margin-left: 0; }
       .header-social .header-social-icon ul li a {
-        color: #ccc;
-        font-size: 20px;
-        width: 40px;
-        height: 40px;
+        color: #fff;
+        background-color: #754ef9;
+        font-size: 70px;
+        width: 80px;
+        height: 80px;
         line-height: 40px;
-        border-radius: 50%;
+        border-radius: 30%;
         border: 1px solid #ccc;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
@@ -787,8 +788,8 @@ p {
         transition: all 0.3s ease-out 0s;
         text-align: center; }
         .header-social .header-social-icon ul li a:hover {
-          color: #fff;
-          background-color: #754ef9;
+          color: #754ef9;
+          background-color: #fff;
           border-color: #754ef9; }
 
 /*===========================
@@ -909,7 +910,8 @@ p {
     .single-service .service-content .service-title a {
       font-size: 22px;
       font-weight: 600;
-      color: #32333c;
+      /* color: #32333c;  */
+      color:  #754ef9;
       margin-bottom: 20px;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -917,11 +919,13 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .single-service .service-content .service-title a:hover {
-        color: #754ef9; }
+        color: rgb(117, 78, 249); }
   .single-service:hover {
-    -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(117, 78, 249, 23); 
+    -moz-box-shadow: 0px 0px 21px 0px rgba(117, 78, 249, 23); 
+    /* box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);  */
+    box-shadow: 0px 0px 21px 0px rgba(117, 78, 249, 23); 
+  }
 
 /*===========================
     4.CALL TO ACTION css 
